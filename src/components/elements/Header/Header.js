@@ -7,17 +7,10 @@ const Header = () => {
     <div className="rmdb-header">
       <div className="rmdb-header-content">
         <Link to="/">
-          <img
-            src="./images/reactMovie_logo.png"
-            className="rmdb-logo"
-            alt="rmdb-logo"
-          />
+          <p className="rmdb-logo"> CINEMATOGRAM </p>
+          {/* <br/>  <br/>   
+          <p className="rmdb-sublogo"> Search what you want to watch </p> */}
         </Link>
-        <img
-          src="./images/tmdb_logo.png"
-          className="rmdb-tmdb-logo"
-          alt="tmdb-logo"
-        />
       </div>
     </div>
   );

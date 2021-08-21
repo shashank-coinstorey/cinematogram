@@ -1,31 +1,50 @@
 .rmdb-header {
   width: 100%;
   height: auto;
-  background: #1c1c1c;
+  background: #4555e7;
   padding: 0 20px;
   box-sizing: border-box;
 }
 
 .rmdb-header-content {
   max-width: 1280px;
-  min-height: 120px;
+  max-height: 60px;
   height: auto;
   padding: 20px 0px;
-  margin: 0 auto;
+  margin: 10 auto;
   box-sizing: border-box;
   overflow: hidden;
+  text-decoration-color: aliceblue;
 }
+
+.rmdb-sublogo{
+  width: 300px;
+  margin-top: 10px;
+  
+  float: left;
+   color: aliceblue;
+  font-size: 14px;
+   
+}
+
 
 .rmdb-logo {
   width: 300px;
-  margin-top: 20px;
+  margin-top: -10px;
+  
   float: left;
+   color: aliceblue;
+  font-size: 28px;
+   bottom: 20px;
+  
 }
 
 .rmdb-tmdb-logo {
   width: 122px;
   margin-top: 25px;
   float: right;
+  text-shadow: 5rem;
+  text-decoration-color: aliceblue;
 }
 
 @media screen and (max-width: 500px) {
